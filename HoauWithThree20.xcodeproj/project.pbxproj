@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B8C33B31368F25F00991CA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C33B21368F25F00991CA5 /* UIKit.framework */; };
+		8B8C33B51368F25F00991CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C33B41368F25F00991CA5 /* Foundation.framework */; };
+		8B8C33B71368F26000991CA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C33B61368F25F00991CA5 /* CoreGraphics.framework */; };
+		8B8C33BD1368F26000991CA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C33BB1368F26000991CA5 /* InfoPlist.strings */; };
+		8B8C33C01368F26000991CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33BF1368F26000991CA5 /* main.m */; };
+		8B8C33C31368F26000991CA5 /* HoauWithThree20AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33C21368F26000991CA5 /* HoauWithThree20AppDelegate.m */; };
+		8B8C33C71368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33C61368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.m */; };
+		8B8C33CA1368F26000991CA5 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C33C81368F26000991CA5 /* MainWindow_iPhone.xib */; };
+		8B8C33CE1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33CD1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.m */; };
+		8B8C33D11368F26000991CA5 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C33CF1368F26000991CA5 /* MainWindow_iPad.xib */; };
+		8B8C33D81368F26000991CA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C33B21368F25F00991CA5 /* UIKit.framework */; };
+		8B8C33D91368F26000991CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C33B41368F25F00991CA5 /* Foundation.framework */; };
+		8B8C33DA1368F26000991CA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8C33B61368F25F00991CA5 /* CoreGraphics.framework */; };
+		8B8C33E21368F26000991CA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C33E01368F26000991CA5 /* InfoPlist.strings */; };
+		8B8C33E51368F26000991CA5 /* HoauWithThree20Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C33E41368F26000991CA5 /* HoauWithThree20Tests.h */; };
+		8B8C33E71368F26000991CA5 /* HoauWithThree20Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33E61368F26000991CA5 /* HoauWithThree20Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B8C33DB1368F26000991CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B8C33A51368F25F00991CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8C33AD1368F25F00991CA5;
+			remoteInfo = HoauWithThree20;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B8C33AE1368F25F00991CA5 /* HoauWithThree20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoauWithThree20.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8C33B21368F25F00991CA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B8C33B41368F25F00991CA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B8C33B61368F25F00991CA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B8C33BA1368F26000991CA5 /* HoauWithThree20-Info.plist */ = {isa = PBXFileReference; path = "HoauWithThree20-Info.plist"; sourceTree = "<group>"; };
+		8B8C33BC1368F26000991CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B8C33BE1368F26000991CA5 /* HoauWithThree20-Prefix.pch */ = {isa = PBXFileReference; path = "HoauWithThree20-Prefix.pch"; sourceTree = "<group>"; };
+		8B8C33BF1368F26000991CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B8C33C11368F26000991CA5 /* HoauWithThree20AppDelegate.h */ = {isa = PBXFileReference; path = HoauWithThree20AppDelegate.h; sourceTree = "<group>"; };
+		8B8C33C21368F26000991CA5 /* HoauWithThree20AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoauWithThree20AppDelegate.m; sourceTree = "<group>"; };
+		8B8C33C51368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.h */ = {isa = PBXFileReference; name = HoauWithThree20AppDelegate_iPhone.h; path = iPhone/HoauWithThree20AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8B8C33C61368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HoauWithThree20AppDelegate_iPhone.m; path = iPhone/HoauWithThree20AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		8B8C33C91368F26000991CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		8B8C33CC1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.h */ = {isa = PBXFileReference; name = HoauWithThree20AppDelegate_iPad.h; path = iPad/HoauWithThree20AppDelegate_iPad.h; sourceTree = "<group>"; };
+		8B8C33CD1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HoauWithThree20AppDelegate_iPad.m; path = iPad/HoauWithThree20AppDelegate_iPad.m; sourceTree = "<group>"; };
+		8B8C33D01368F26000991CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		8B8C33D71368F26000991CA5 /* HoauWithThree20Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoauWithThree20Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8C33DF1368F26000991CA5 /* HoauWithThree20Tests-Info.plist */ = {isa = PBXFileReference; path = "HoauWithThree20Tests-Info.plist"; sourceTree = "<group>"; };
+		8B8C33E11368F26000991CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B8C33E31368F26000991CA5 /* HoauWithThree20Tests-Prefix.pch */ = {isa = PBXFileReference; path = "HoauWithThree20Tests-Prefix.pch"; sourceTree = "<group>"; };
+		8B8C33E41368F26000991CA5 /* HoauWithThree20Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoauWithThree20Tests.h; sourceTree = "<group>"; };
+		8B8C33E61368F26000991CA5 /* HoauWithThree20Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoauWithThree20Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B8C33AB1368F25F00991CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8C33B31368F25F00991CA5 /* UIKit.framework in Frameworks */,
+				8B8C33B51368F25F00991CA5 /* Foundation.framework in Frameworks */,
+				8B8C33B71368F26000991CA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8C33D31368F26000991CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8C33D81368F26000991CA5 /* UIKit.framework in Frameworks */,
+				8B8C33D91368F26000991CA5 /* Foundation.framework in Frameworks */,
+				8B8C33DA1368F26000991CA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B8C33A31368F25F00991CA5 = {
+			isa = PBXGroup;
+			children = (
+				8B8C33B81368F26000991CA5 /* HoauWithThree20 */,
+				8B8C33DD1368F26000991CA5 /* HoauWithThree20Tests */,
+				8B8C33B11368F25F00991CA5 /* Frameworks */,
+				8B8C33AF1368F25F00991CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8C33AF1368F25F00991CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C33AE1368F25F00991CA5 /* HoauWithThree20.app */,
+				8B8C33D71368F26000991CA5 /* HoauWithThree20Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B8C33B11368F25F00991CA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C33B21368F25F00991CA5 /* UIKit.framework */,
+				8B8C33B41368F25F00991CA5 /* Foundation.framework */,
+				8B8C33B61368F25F00991CA5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B8C33B81368F26000991CA5 /* HoauWithThree20 */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C33C11368F26000991CA5 /* HoauWithThree20AppDelegate.h */,
+				8B8C33C21368F26000991CA5 /* HoauWithThree20AppDelegate.m */,
+				8B8C33C41368F26000991CA5 /* iPhone */,
+				8B8C33CB1368F26000991CA5 /* iPad */,
+				8B8C33B91368F26000991CA5 /* Supporting Files */,
+			);
+			path = HoauWithThree20;
+			sourceTree = "<group>";
+		};
+		8B8C33B91368F26000991CA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C33BA1368F26000991CA5 /* HoauWithThree20-Info.plist */,
+				8B8C33BB1368F26000991CA5 /* InfoPlist.strings */,
+				8B8C33BE1368F26000991CA5 /* HoauWithThree20-Prefix.pch */,
+				8B8C33BF1368F26000991CA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B8C33C41368F26000991CA5 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C33C51368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.h */,
+				8B8C33C61368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.m */,
+				8B8C33C81368F26000991CA5 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		8B8C33CB1368F26000991CA5 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C33CC1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.h */,
+				8B8C33CD1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.m */,
+				8B8C33CF1368F26000991CA5 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		8B8C33DD1368F26000991CA5 /* HoauWithThree20Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C33E41368F26000991CA5 /* HoauWithThree20Tests.h */,
+				8B8C33E61368F26000991CA5 /* HoauWithThree20Tests.m */,
+				8B8C33DE1368F26000991CA5 /* Supporting Files */,
+			);
+			path = HoauWithThree20Tests;
+			sourceTree = "<group>";
+		};
+		8B8C33DE1368F26000991CA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C33DF1368F26000991CA5 /* HoauWithThree20Tests-Info.plist */,
+				8B8C33E01368F26000991CA5 /* InfoPlist.strings */,
+				8B8C33E31368F26000991CA5 /* HoauWithThree20Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B8C33AD1368F25F00991CA5 /* HoauWithThree20 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8C33EA1368F26000991CA5 /* Build configuration list for PBXNativeTarget "HoauWithThree20" */;
+			buildPhases = (
+				8B8C33AA1368F25F00991CA5 /* Sources */,
+				8B8C33AB1368F25F00991CA5 /* Frameworks */,
+				8B8C33AC1368F25F00991CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoauWithThree20;
+			productName = HoauWithThree20;
+			productReference = 8B8C33AE1368F25F00991CA5 /* HoauWithThree20.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B8C33D61368F26000991CA5 /* HoauWithThree20Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8C33ED1368F26000991CA5 /* Build configuration list for PBXNativeTarget "HoauWithThree20Tests" */;
+			buildPhases = (
+				8B8C33D21368F26000991CA5 /* Sources */,
+				8B8C33D31368F26000991CA5 /* Frameworks */,
+				8B8C33D41368F26000991CA5 /* Resources */,
+				8B8C33D51368F26000991CA5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B8C33DC1368F26000991CA5 /* PBXTargetDependency */,
+			);
+			name = HoauWithThree20Tests;
+			productName = HoauWithThree20Tests;
+			productReference = 8B8C33D71368F26000991CA5 /* HoauWithThree20Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B8C33A51368F25F00991CA5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8B8C33A81368F25F00991CA5 /* Build configuration list for PBXProject "HoauWithThree20" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B8C33A31368F25F00991CA5;
+			productRefGroup = 8B8C33AF1368F25F00991CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B8C33AD1368F25F00991CA5 /* HoauWithThree20 */,
+				8B8C33D61368F26000991CA5 /* HoauWithThree20Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B8C33AC1368F25F00991CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8C33BD1368F26000991CA5 /* InfoPlist.strings in Resources */,
+				8B8C33CA1368F26000991CA5 /* MainWindow_iPhone.xib in Resources */,
+				8B8C33D11368F26000991CA5 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8C33D41368F26000991CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8C33E21368F26000991CA5 /* InfoPlist.strings in Resources */,
+				8B8C33E51368F26000991CA5 /* HoauWithThree20Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B8C33D51368F26000991CA5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B8C33AA1368F25F00991CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8C33C01368F26000991CA5 /* main.m in Sources */,
+				8B8C33C31368F26000991CA5 /* HoauWithThree20AppDelegate.m in Sources */,
+				8B8C33C71368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.m in Sources */,
+				8B8C33CE1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8C33D21368F26000991CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8C33E71368F26000991CA5 /* HoauWithThree20Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B8C33DC1368F26000991CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B8C33AD1368F25F00991CA5 /* HoauWithThree20 */;
+			targetProxy = 8B8C33DB1368F26000991CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B8C33BB1368F26000991CA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B8C33BC1368F26000991CA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B8C33C81368F26000991CA5 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B8C33C91368F26000991CA5 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8B8C33CF1368F26000991CA5 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B8C33D01368F26000991CA5 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8B8C33E01368F26000991CA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B8C33E11368F26000991CA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B8C33E81368F26000991CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B8C33E91368F26000991CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B8C33EB1368F26000991CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoauWithThree20/HoauWithThree20-Prefix.pch";
+				INFOPLIST_FILE = "HoauWithThree20/HoauWithThree20-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B8C33EC1368F26000991CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoauWithThree20/HoauWithThree20-Prefix.pch";
+				INFOPLIST_FILE = "HoauWithThree20/HoauWithThree20-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8B8C33EE1368F26000991CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HoauWithThree20.app/HoauWithThree20";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoauWithThree20Tests/HoauWithThree20Tests-Prefix.pch";
+				INFOPLIST_FILE = "HoauWithThree20Tests/HoauWithThree20Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8B8C33EF1368F26000991CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HoauWithThree20.app/HoauWithThree20";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoauWithThree20Tests/HoauWithThree20Tests-Prefix.pch";
+				INFOPLIST_FILE = "HoauWithThree20Tests/HoauWithThree20Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B8C33A81368F25F00991CA5 /* Build configuration list for PBXProject "HoauWithThree20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8C33E81368F26000991CA5 /* Debug */,
+				8B8C33E91368F26000991CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B8C33EA1368F26000991CA5 /* Build configuration list for PBXNativeTarget "HoauWithThree20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8C33EB1368F26000991CA5 /* Debug */,
+				8B8C33EC1368F26000991CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B8C33ED1368F26000991CA5 /* Build configuration list for PBXNativeTarget "HoauWithThree20Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8C33EE1368F26000991CA5 /* Debug */,
+				8B8C33EF1368F26000991CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B8C33A51368F25F00991CA5 /* Project object */;
+}
