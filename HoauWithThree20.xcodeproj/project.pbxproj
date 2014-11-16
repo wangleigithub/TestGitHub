@@ -23,6 +23,7 @@
 		8B8C33E21368F26000991CA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C33E01368F26000991CA5 /* InfoPlist.strings */; };
 		8B8C33E51368F26000991CA5 /* HoauWithThree20Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C33E41368F26000991CA5 /* HoauWithThree20Tests.h */; };
 		8B8C33E71368F26000991CA5 /* HoauWithThree20Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8C33E61368F26000991CA5 /* HoauWithThree20Tests.m */; };
+		9ABE47D31A189B4E00A10899 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE47D21A189B4E00A10899 /* File */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,24 +41,25 @@
 		8B8C33B21368F25F00991CA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B8C33B41368F25F00991CA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8B8C33B61368F25F00991CA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8B8C33BA1368F26000991CA5 /* HoauWithThree20-Info.plist */ = {isa = PBXFileReference; path = "HoauWithThree20-Info.plist"; sourceTree = "<group>"; };
+		8B8C33BA1368F26000991CA5 /* HoauWithThree20-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoauWithThree20-Info.plist"; sourceTree = "<group>"; };
 		8B8C33BC1368F26000991CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8B8C33BE1368F26000991CA5 /* HoauWithThree20-Prefix.pch */ = {isa = PBXFileReference; path = "HoauWithThree20-Prefix.pch"; sourceTree = "<group>"; };
+		8B8C33BE1368F26000991CA5 /* HoauWithThree20-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoauWithThree20-Prefix.pch"; sourceTree = "<group>"; };
 		8B8C33BF1368F26000991CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8B8C33C11368F26000991CA5 /* HoauWithThree20AppDelegate.h */ = {isa = PBXFileReference; path = HoauWithThree20AppDelegate.h; sourceTree = "<group>"; };
+		8B8C33C11368F26000991CA5 /* HoauWithThree20AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoauWithThree20AppDelegate.h; sourceTree = "<group>"; };
 		8B8C33C21368F26000991CA5 /* HoauWithThree20AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoauWithThree20AppDelegate.m; sourceTree = "<group>"; };
-		8B8C33C51368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.h */ = {isa = PBXFileReference; name = HoauWithThree20AppDelegate_iPhone.h; path = iPhone/HoauWithThree20AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8B8C33C51368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HoauWithThree20AppDelegate_iPhone.h; path = iPhone/HoauWithThree20AppDelegate_iPhone.h; sourceTree = "<group>"; };
 		8B8C33C61368F26000991CA5 /* HoauWithThree20AppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HoauWithThree20AppDelegate_iPhone.m; path = iPhone/HoauWithThree20AppDelegate_iPhone.m; sourceTree = "<group>"; };
 		8B8C33C91368F26000991CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		8B8C33CC1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.h */ = {isa = PBXFileReference; name = HoauWithThree20AppDelegate_iPad.h; path = iPad/HoauWithThree20AppDelegate_iPad.h; sourceTree = "<group>"; };
+		8B8C33CC1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HoauWithThree20AppDelegate_iPad.h; path = iPad/HoauWithThree20AppDelegate_iPad.h; sourceTree = "<group>"; };
 		8B8C33CD1368F26000991CA5 /* HoauWithThree20AppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HoauWithThree20AppDelegate_iPad.m; path = iPad/HoauWithThree20AppDelegate_iPad.m; sourceTree = "<group>"; };
 		8B8C33D01368F26000991CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		8B8C33D71368F26000991CA5 /* HoauWithThree20Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoauWithThree20Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B8C33DF1368F26000991CA5 /* HoauWithThree20Tests-Info.plist */ = {isa = PBXFileReference; path = "HoauWithThree20Tests-Info.plist"; sourceTree = "<group>"; };
+		8B8C33DF1368F26000991CA5 /* HoauWithThree20Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoauWithThree20Tests-Info.plist"; sourceTree = "<group>"; };
 		8B8C33E11368F26000991CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8B8C33E31368F26000991CA5 /* HoauWithThree20Tests-Prefix.pch */ = {isa = PBXFileReference; path = "HoauWithThree20Tests-Prefix.pch"; sourceTree = "<group>"; };
+		8B8C33E31368F26000991CA5 /* HoauWithThree20Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoauWithThree20Tests-Prefix.pch"; sourceTree = "<group>"; };
 		8B8C33E41368F26000991CA5 /* HoauWithThree20Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoauWithThree20Tests.h; sourceTree = "<group>"; };
 		8B8C33E61368F26000991CA5 /* HoauWithThree20Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoauWithThree20Tests.m; sourceTree = "<group>"; };
+		9ABE47D21A189B4E00A10899 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		8B8C33A31368F25F00991CA5 = {
 			isa = PBXGroup;
 			children = (
+				9ABE47D21A189B4E00A10899 /* File */,
 				8B8C33B81368F26000991CA5 /* HoauWithThree20 */,
 				8B8C33DD1368F26000991CA5 /* HoauWithThree20Tests */,
 				8B8C33B11368F25F00991CA5 /* Frameworks */,
@@ -220,6 +223,8 @@
 /* Begin PBXProject section */
 		8B8C33A51368F25F00991CA5 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 8B8C33A81368F25F00991CA5 /* Build configuration list for PBXProject "HoauWithThree20" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -243,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABE47D31A189B4E00A10899 /* File in Resources */,
 				8B8C33BD1368F26000991CA5 /* InfoPlist.strings in Resources */,
 				8B8C33CA1368F26000991CA5 /* MainWindow_iPhone.xib in Resources */,
 				8B8C33D11368F26000991CA5 /* MainWindow_iPad.xib in Resources */,
@@ -467,6 +473,7 @@
 				8B8C33EC1368F26000991CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B8C33ED1368F26000991CA5 /* Build configuration list for PBXNativeTarget "HoauWithThree20Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				8B8C33EF1368F26000991CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
